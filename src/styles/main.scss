@@ -1,0 +1,73 @@
+@import "_typo.scss";
+@import "settings.scss";
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.error-info {
+  color: $danger_color;
+}
+
+.httperror-message {
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.multiselect__tags {
+  border-radius: 0 !important;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.btn-toolbar--margin {
+  margin-bottom: 20px;
+}
+
+/* animation */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+/* END animation */
+
+a {
+  cursor: pointer;
+}
+
+input.is-invalid {
+  border-color: $danger_color;
+}
+
+/* datetimepicker */
+.theme-polyus .vdatetime-popup__header,
+.theme-polyus .vdatetime-calendar__month__day--selected>span>span,
+.theme-polyus .vdatetime-calendar__month__day--selected:hover>span>span {
+  background: $custom_main_color;
+}
+
+.theme-polyus .vdatetime-year-picker__item--selected,
+.theme-polyus .vdatetime-time-picker__item--selected,
+.theme-polyus .vdatetime-popup__actions__button {
+  color: $warning_color;
+}
+
+.vdatetime-calendar__month__day span {
+  font-weight: bold;
+}
+
+// ie fix
+.vdatetime-calendar__navigation--previous,
+.vdatetime-calendar__navigation--next {
+  height: 24px;
+}
+
+/*end datetimepicker*/

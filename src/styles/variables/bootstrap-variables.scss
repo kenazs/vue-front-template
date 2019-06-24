@@ -1,0 +1,32 @@
+@import "@styles/settings.scss";
+$primary:       $custom_main_color !default; //#007bff !default;
+$secondary:     $bg_color !default; //#6c757d !default;
+$success:       $success_color !default; //#28a745 !default;
+$info:          $success_color !default; //#17a2b8 !default;
+$warning:       $warning_color !default; //#ffc107 !default;
+$danger:        $danger_color !default; //#dc3545 !default;
+//$light:         $gray-100 !default; //#f8f9fa !default;
+$dark:          $bg_dark !default; //#343a40 !default;
+
+$sizes: (
+  5: 5%,
+  10: 10%,
+  15: 15%,
+  20: 20%,
+  25: 25%,
+  30: 30%,
+  35: 35%,
+  40: 40%,
+  45: 45%,
+  50: 50%,
+  55: 55%,
+  60: 60%,
+  65: 65%,
+  70: 70%,
+  75: 75%,
+  80: 80%,
+  85: 85%,
+  90: 90%,
+  95: 95%,
+  100: 100%
+);

@@ -1,0 +1,41 @@
+@import "@styles/variables/bootstrap-variables.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap-vue/dist/bootstrap-vue.css";
+
+.table-custom-xxl {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .modal-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+  }
+  .modal-custom-xl {
+    max-width: 1100px;
+  }
+  ._nav-icon {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  ._card-icon,
+  ._card-icon .fa-icon,
+  ._nav-icon .fa-icon {
+    vertical-align: middle;
+  }
+  .breadcrumb {
+    background: none;
+    padding-left: 0;
+  }
+  
+  .changed {
+    .active {
+      font-weight: bold;
+    }
+  }
+  .btn[disabled] {
+    opacity: 0.5;
+  }
